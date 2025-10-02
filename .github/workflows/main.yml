@@ -18,7 +18,7 @@ jobs:
         uses: nateraw/huggingface-sync-action@v0.0.4 
         with:
           # Replace YOUR_USERNAME and YOUR_SPACE_NAME with your actual values
-          HF_REPO_ID: ILHAM78/Gemini-rag-app 
+          huggingface_repo_id: ILHAM78/Gemini-rag-app 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           # This tells it to deploy to a Space
           REPO_TYPE: space
