@@ -5,8 +5,6 @@ colorFrom: blue
 colorTo: purple
 sdk: streamlit
 app_file: app.py
-config:
-  browser.gatherUsageStats: false
 
 
 # 📚 Multi-PDF Chatbot with Gemini (Information Retrieval System) 🧠✨
