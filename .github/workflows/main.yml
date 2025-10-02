@@ -20,4 +20,4 @@ jobs:
           huggingface_repo_id: ILHAM78/Gemini-rag-app
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: space
-          private: false
+          private: ${{ false }}
