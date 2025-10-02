@@ -1,3 +1,15 @@
+---
+title: Information Retrieval System
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: streamlit 
+app_file: app.py
+---
+
+
+# 📚 Multi-PDF Chatbot with Gemini... (Rest of your README content)
+
 # 📚 Multi-PDF Chatbot with Gemini (Information Retrieval System) 🧠✨
 
 **Effortlessly extract answers and insights from your documents with the power of Google's Gemini Pro and LangChain!**
