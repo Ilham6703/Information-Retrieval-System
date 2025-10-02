@@ -15,12 +15,9 @@ jobs:
           lfs: true
 
       - name: Push to Hub
-        uses: nateraw/huggingface-sync-action@v0.0.4 
+        uses: nateraw/huggingface-sync-action@v0.0.4
         with:
-          # Your Space ID
-          huggingface_repo_id: ILHAM78/Gemini-rag-app  
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          # This tells it to deploy to a Space
-          REPO_TYPE: space
-
+          huggingface_repo_id: ILHAM78/Gemini-rag-app
+          hf_token: ${{ secrets.HF_TOKEN }}
+          repo_type: space
           private: false
