@@ -1,3 +1,7 @@
+import os
+os.environ["HOME"] = "/tmp"
+
+
 import streamlit as st
 from src.helper import get_pdf_text, get_text_chunks, get_vector_store, get_conversational_chain
 
