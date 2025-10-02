@@ -6,4 +6,3 @@ faiss-cpu
 streamlit
 pypdf
 langchain-community
--e .
