@@ -1,0 +1,24 @@
+name: Sync to Hugging Face Hub
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to Hub
+        uses: nateraw/huggingface-sync-action@v0.0.4 
+        with:
+          # Replace YOUR_USERNAME and YOUR_SPACE_NAME with your actual values
+          HF_REPO_ID: ILHAM78/Gemini-rag-app 
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          # This tells it to deploy to a Space
+          REPO_TYPE: space
